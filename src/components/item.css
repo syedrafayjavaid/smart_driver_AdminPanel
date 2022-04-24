@@ -1,0 +1,200 @@
+.mainCard{
+    background-color: #fff;
+    border: 1px solid #f0f0f0;
+    border-radius:4px;
+    margin-bottom:30px;
+    position:relative;
+    -webkit-transition:all .3s ease 0s;
+    -moz-transition:all .3s ease 0s;
+    -o-transition:all .3s ease 0s;
+    transition:all .3s ease 0s;
+	padding: 15px;
+    margin-top: 10px;
+    height: auto;
+}
+.itemCardImageDiv {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    border-radius: 0px;
+}
+.productsgallerybar {
+    position: relative;
+    overflow: hidden;
+    z-index: 3;
+    border-radius: 2px;
+}
+
+.itemCardImageDiv img {
+    border-radius: 0px;
+	transform: translateZ(0);
+	transition: all 2000ms cubic-bezier(.19,1,.22,1) 0ms;
+    width: 100%;
+}
+.itemCardImageDiv:hover img {
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    transform: scale(1.15);
+}
+.itemCardDiv:{
+    --box-shadow-color: palegoldenrod;
+    box-shadow: 1px 2px 10px var(--box-shadow-color) !important;
+}
+.itemCardDiv:hover{
+    -webkit-transform: scale(1.15) !important;
+    -moz-transform: scale(1.15) !important;
+    transform: scale(1.15) !important;
+    --box-shadow-color: goldenrod !important;
+}
+
+.ProductDetails{
+     padding: 15px 0 0;
+}
+.ProductDetails .productTitle {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    margin-top: -20px;
+}
+.productInfo{
+    font-size: 13px;
+    color: #757575;
+    font-weight: 400;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+.productInfo_title{
+    margin-left: 5px;
+}
+.productDetailsRow{
+    margin-left: -3px;
+    margin-right: -3px;
+}
+.update-btn{
+    color: #464b5e;
+    font-size: 13px;
+    border: 2px solid #464b5e;
+    text-align: center;
+    display: block;
+    font-weight: 500;
+	padding: 8px;
+    width: 100px;
+    border-radius: 10px;
+}
+.update-btn:hover, .update-btn:focus {
+	background-color: #464b5e;
+	color: #fff;
+}
+.delete-btn {
+	background-color: #464b5e;
+    border: 2px solid #464b5e;
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+    display: block;
+    font-weight: 500;
+	padding: 8px;
+    width: 100px;
+    border-radius: 10px;
+}
+.delete-btn:hover, .delete-btn:focus {
+	background-color:red;
+	border-color: red;
+	color: #fff;
+}
+.addBtnFloat{
+    position: fixed !important;
+    color: white !important;
+    right: 2vw;
+    bottom: 10vh;
+    z-index: 5;
+}
+.addBtnFloat:hover{
+    color:#C0392B!important;
+    background-color:white!important;
+}
+.cat:hover{
+    color:white!important;
+    background-color: #0D87B1!important;
+}
+.dialogButton:hover{
+    color:#C0392B!important;
+    background-color: white!important;
+}
+.dash:hover{
+    color:white !important;
+    background-color:black!important;
+}
+.scrollableDiv{
+    height: 600px;
+    overflow-y: scroll !important;
+
+    z-index: 999 !important;
+  }
+  .fixedTable{
+    position: fixed !important;
+ 
+  }
+
+
+
+  .scrollableDiv2{
+    height: 480px;
+    overflow-y: scroll !important;
+
+  }
+
+
+.divscroll{
+    height: 150px;
+    overflow-y: scroll !important;
+  }
+  
+
+.divscroll::-webkit-scrollbar{
+    display: none !important; 
+  }
+  s
+
+
+
+.scrollableDiv::-webkit-scrollbar-track {
+/* display: none; */
+    width: 100px !important;
+    background-color: red !important;
+   
+}
+
+
+
+
+@media only screen and (max-width: 990px){
+    .dialogeContent{
+       
+        overflow-y: scroll !important;
+    }
+
+    .deleteDialogueButton{
+        left: 36vw !important;
+        top: 1vw !important;
+        position: relative;
+    }
+
+}
+
+
+
+
+
+.dialogeContent{
+
+    padding-top: 0px !important ;
+    padding: 0px !important; 
+    overflow: hidden;
+ }
+
+ 
+
+ 
